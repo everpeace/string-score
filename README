@@ -1,1 +1,16 @@
-string-score is a port of Joshaven Potter's string_score to java.
+string-score is a port of Joshaven Potter's string_score.js to java.
+
+original string_score.js:
+http://joshaven.com/string_score
+https://github.com/joshaven/string_score
+
+string-score on Java's benchmark result:
+
+  32 milliseconds to do 4000 iterations of score("hello world", "h")
+  15 milliseconds to do 4000 iterations of score("hello world", "hw")
+  0 milliseconds to do 4000 iterations of score("hello world", "hello world")
+  47 milliseconds to do 4000 iterations of score("hello any world that will listen", "hlo wrdthlstn")
+  438 milliseconds to do 4000 iterations of 446 character string scoring a 70 character match
+  Average Score... all benchmarks devided by the number of benchmarks (smaller is faster): 106.4ms
+
+benchmark is run on Thinkpad X61(Core2Duo(T7100@1.80Ghz), 3GB RAM, JDK 1.6.0.16, WindowsXP Professional Version2002 ServicePack3).
