@@ -1,0 +1,27 @@
+# Eclipse
+.classpath
+.settings
+.metadata
+.project
+.hsproject
+.dist-scion
+Servers
+bin
+target
+
+# cabal
+dist
+
+# SpringSource Tool Suite
+.springBeans
+
+# Netbeans
+build
+dist
+private
+
+# IntelliJ IDEA
+*.iml
+*.ipr
+*.iws
+*.idea
